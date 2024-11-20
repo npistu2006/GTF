@@ -1,131 +1,164 @@
 const countries = [
     {
         flag: "magyarorszag.png",
-        name: "Magyarország"
+        name: "Magyarország",
+        id: 1
     },
     {
         flag: "nemetorszag.png",
-        name: "Németország"
+        name: "Németország",
+        id: 2
     },
     {
         flag: "olaszorszag.png",
-        name: "Olaszország"
+        name: "Olaszország",
+        id: 3
     },
     {
         flag: "csehorszag.png",
-        name: "Csehország"
+        name: "Csehország",
+        id: 4
     },
     {
         flag: "szlovakia.png",
-        name:  "Szlovákia"
+        name:  "Szlovákia",
+        id: 5
     },
     {
         flag: "romania.png",
-        name: "Románia"
+        name: "Románia",
+        id: 6
     },
     {
         flag: "horvatorszag.png",
-        name: "Horvátország"
+        name: "Horvátország",
+        id: 7
     },
     {
         flag: "alban.png",
-        name: "Albánia"
+        name: "Albánia",
+        id: 8
     },
     {
         flag: "szerbia.png",
-        name: "Szerbia"
+        name: "Szerbia",
+        id: 9
     },
     {
         flag: "bulgaria.png",
-        name: "Bulgária"
+        name: "Bulgária",
+        id: 10
     },
     {
         flag: "gorogorszag.png",
-        name: "Görögország"
+        name: "Görögország",
+        id: 11
     },
     {
         flag: "franciaorszag.png",
-        name: "Franciaország"
+        name: "Franciaország",
+        id: 12
     },
     {
         flag: "hollandia.png",
-        name: "Hollandia"
+        name: "Hollandia",
+        id: 13
     },
     {
         flag: "belgium.png",
-        name: "Belgium"
+        name: "Belgium",
+        id: 14
     },
     {
         flag: "spanyolorszag.png",
-        name: "Spanyolország"
+        name: "Spanyolország",
+        id: 15
     },
     {
         flag: "portugalia.png",
-        name: "Portugália"
+        name: "Portugália",
+        id: 16
     },
     {
         flag: "norvegia.png",
-        name: "Norvégia"
+        name: "Norvégia",
+        id: 17
     },
     {
         flag: "svajc.png",
-        name: "Svédország"
+        name: "Svédország",
+        id: 18
     },
     {
         flag: "finnorszag.png",
-        name: "Finnország"
+        name: "Finnország",
+        id: 19
     },
     {
         flag: "oroszorszag.png",
-        name: "Oroszország"
+        name: "Oroszország",
+        id: 20
     },
     {
         flag: "ukrajna.png",
-        name: "Ukrajna"
+        name: "Ukrajna",
+        id: 21
     },
     {
         flag: "moldova.png",
-        name: "Moldova"
+        name: "Moldova",
+        id: 22
     },
     {
         flag: "lengyelorszag.png",
-        name: "Lengyelország"
+        name: "Lengyelország",
+        id: 23
     },
     {
         flag: "esztorszag.png",
-        name: "Észtország"
+        name: "Észtország",
+        id: 24
     },
     {
         flag: "lettorszag.png",
-        name: "Lettország"
+        name: "Lettország",
+        id: 25
     },
     {
         flag: "litvania.png",
-        name: "Litvánia"
+        name: "Litvánia",
+        id: 26
     },
     {
         flag: "ausztria.png",
-        name: "Ausztria"
+        name: "Ausztria",
+        id: 27
     },
     {
         flag: "svajc.png",
-        name: "Svájc"
+        name: "Svájc",
+        id: 28
     },
     {
         flag: "feheroroszorszag.png",
-        name: "Fehéroroszország"
+        name: "Fehéroroszország",
+        id: 29
+        
     },
     {
         flag: "luxemburg.png",
-        name: "Luxemburg"
+        name: "Luxemburg",
+        id: 30
     },
     {
         flag: "andorra.png",
-        name: "Andorra"
+        name: "Andorra",
+        id: 31
     },
     {
         flag: "egyesult_kiralysag.png",
-        name: "Egyesült Királyság"
+        name: "Egyesült Királyság",
+        id: 32
     }
 
 
