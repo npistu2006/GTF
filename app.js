@@ -25,7 +25,7 @@ const countries = [
         id: 5
     },
     {
-        flag: "romania.png",
+        flag: "ro.png",
         name: "Románia",
         id: 6
     },
@@ -140,7 +140,7 @@ const countries = [
         id: 28
     },
     {
-        flag: "feheroroszorszag.png",
+        flag: "feherororszorszag.png",
         name: "Fehéroroszország",
         id: 29
         
@@ -161,5 +161,39 @@ const countries = [
         id: 32
     }
 
-
 ]
+function getRandomNumber() {
+    let newNum =  Math.floor(Math.random() * countries.length);
+    return newNum;
+}
+
+function getCountryName(index) {
+    let countryName = countries[index].name;
+    return countryName;
+}   
+
+function getFlagImage(index) {
+    let countryFlag = countries[index].flag;
+    return countryFlag;
+}
+function getCountryId(index) {
+    let countryId = countries[index].id;
+    return countryId;
+}
+let currentNumber = getRandomNumber();
+let currentCountryName = getCountryName(currentNumber);
+let currentFlag = getFlagImage(currentNumber);
+let countryId = getCountryId(currentNumber)
+
+console.log(currentNumber)
+console.log(currentCountryName)
+console.log(currentFlag)
+console.log(countryId)
+
+
+function render(){
+    const flagImage = document.querySelector(".flag");
+    flagImage.innerHTML = `<img src="zaszlok/${currentFlag}" alt="${currentCountryName}">`
+}
+
+addEventListener("DOMContentLoaded", render(currentFlag));
